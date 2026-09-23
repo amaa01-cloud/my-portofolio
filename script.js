@@ -387,5 +387,9 @@ if (year) {
         new Date().getFullYear() +
         " Portfolio";
 
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 53de13cf2af097411fa6cdb6ff533f1293ff5fe4

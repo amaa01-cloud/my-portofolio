@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         session_regenerate_id(true);
 
-        $_SESSION["login"] = true;
+        $_SESSION["is_login"] = true;
         $_SESSION["username"] = $username;
 
         header("Location: dashboard.php");

@@ -7,7 +7,7 @@
             <ul class="sidebar-menu">
                 <li><a href="dashboard.php" class="active">🌸 Dashboard</a></li>
                 <li><a href="index.html">📁 Portfolio</a></li>
-                <li><a href="profile.php">👤 Profil Saya</a></li>
+                <li><a href="dashboard-project.php">👤 Projects</a></li>
                 <li><a href="logout.php">🚪 Logout</a></li>
             </ul>
         </aside>

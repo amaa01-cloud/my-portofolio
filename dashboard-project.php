@@ -16,7 +16,16 @@ include 'layout/sidebar.php';
     <div class="decor four">✧</div>
 
     <div class="project-section" style="width: 100%; max-width: 1000px; background: #ffffff; padding: 30px; border-radius: 24px; box-shadow: 0 10px 30px rgba(255, 182, 193, 0.25); z-index: 2; margin-top: 20px;">
-        <h2 style="font-size: 1.5rem; color: #2b2d42; margin-bottom: 20px;">Daftar Project ✨</h2>
+        
+        <!-- BAGIAN HEADER: Judul di kiri, Tombol di kanan (Sejajar) -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+            
+            <!-- Tombol Tambah Project -->
+            <a href="tambah-project.php" style="background: #ff758f; color: white; padding: 10px 18px; border-radius: 12px; text-decoration: none; font-size: 0.9rem; font-weight: 600; box-shadow: 0 4px 12px rgba(255, 117, 143, 0.3); transition: background 0.2s;">
+                + Tambah Project
+            </a><h2 style="font-size: 1.5rem; color: #2b2d42; margin: 0;">Daftar Project ✨</h2>
+            
+        </div>
 
         <?php if (count($projects) === 0): ?>
             <p style="color: #6c757d; font-size: 0.95rem;">Belum ada project.</p>

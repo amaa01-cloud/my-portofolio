@@ -374,7 +374,7 @@
         <div class="left-header">
             <button class="menu-toggle" onclick="toggleSidebar()" aria-label="Toggle Navigation">☰</button>
             <div class="logo">
-                ✨ Reyya's Workspace
+                ✨ Amaa's Workspace 
             </div>
         </div>
         <div class="user-profile">
